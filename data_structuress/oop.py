@@ -9,3 +9,4 @@ class Person:
 p = Person('Swaroop')
 k = Person('Daniel')
 k.say_hi()
+# agood start
