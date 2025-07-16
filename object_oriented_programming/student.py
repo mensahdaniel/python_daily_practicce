@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+'''
 class Student:
     def __init__(self, name, level, score):
         self.name = name
@@ -26,3 +26,23 @@ student1 = Student("Ama", "SHS", 100)
 student1.introduce()
 student1.promote()
 student1.introduce()
+
+'''
+
+class patients:
+    def __init__(self,name, age, gender,ward,condition):
+        self.name = name
+        self.age = age
+        self.gender = gender
+        self.ward = ward
+        self.condition = condition
+    def info(self):
+        user_input = input ("please enter patients name")
+
+        if user_input == "daniel":
+            print("hello")
+        else:
+            print("hi")
+patient1 = patients("daniel",24,"male","wardK","malaria")
+
+patient1.info()
